@@ -1,3 +1,7 @@
+# MovieLand
+This website helps you in searching a list of movies related to a particular keyword.
+It makes use of Omdb API to search for the list of movies.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
