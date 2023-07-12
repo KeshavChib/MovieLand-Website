@@ -8,7 +8,7 @@ const API_URL = 'http://www.omdbapi.com/?apikey=' + process.env.REACT_APP_API_KE
 function App() { 
     const [movies, setMovies] = useState(null);
     const [title, setTitle] = useState('');
-    const [searchTitle, setSearchTitle] = useState('');
+    
 
     const searchMovies = async (title) => {
         const responce = await fetch(`${API_URL}&s=${title}`);
@@ -17,8 +17,8 @@ function App() {
     }
 
     useEffect(() => {
-        searchMovies(searchTitle);
-    },[searchTitle]);
+        searchMovies(title);
+    },[title]);
 
     return (<div className="app">
         <h1>MovieLand</h1>
@@ -31,7 +31,7 @@ function App() {
             <img
                 src={searchIcon}
                 alt="search"
-                onClick={() => {setSearchTitle(title)}}
+                onClick={() => {searchMovies(title)}}
             />
         </div>
         <div className="container">
