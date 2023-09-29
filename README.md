@@ -1,74 +1,50 @@
 # MovieLand
+
 This website helps you in searching a list of movies related to a particular keyword.
 It makes use of Omdb API to search for the list of movies.
 
-# Getting Started with Create React App
+# Note
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal project to showcase my mastery in react and api handeling.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Search Functionality : Users can search for the movies related to a specific keyboard using the search bar.
+- Fast and Lightweight : As the website uses react as its main techstack, it is fast and effiecient.So the users can get their response almost instantly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+***
+## Screenshots
+![movieland2](https://github.com/KeshavChib/MovieLand-Website/assets/109231157/5d4a56ff-33a1-40ad-aa0e-399a0b4428c9)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![movieland](https://github.com/KeshavChib/MovieLand-Website/assets/109231157/a2f1ab83-be31-441e-941c-eaaa6874ac3b)
+![m3](https://github.com/KeshavChib/MovieLand-Website/assets/109231157/9249bf92-9648-483d-97d3-442d117e7e69)
+![m4](https://github.com/KeshavChib/MovieLand-Website/assets/109231157/5c088661-dde8-4a68-b595-4bdc7be05634)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+1. Clone the repository to your local machine.
+    ```sh
+    git clone https://github.com/KeshavChib/MovieLand-Website
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install the required packages.
+    ```sh
+    cd MovieLand-Website
+    npm install
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Set up the environment variables:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   Create a .env file in the root directory.
+   Add the required environment variables which is api key omdb website as (REACT_APP_API_KEY = '').
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server.
+    ```sh
+    npm start
+    ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
